@@ -70,10 +70,16 @@ require_once "header.php";
 </thead>
 
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 require_once "db.php";
+
 $task_show_query = "SELECT * FROM task_table";
 $result = $dbcon -> query($task_show_query);
 
+echo "<pre>";
+print_r($result); 
+echo "</pre>";
 if($result->num_rows!=0){
   $serial = 1;
   foreach ($result as $row) {

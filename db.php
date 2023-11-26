@@ -1,8 +1,8 @@
 <?php
-const HOST = 'aws.connect.psdb.cloud';
-const USERNAME = '5ehr5yrxlrak6igquoj1';
-const PASSWORD = 'pscale_pw_sVuU765L32t3YBsN3PQmiKBji9SQY4HW4Y1iOlMYnFu';
 const DBNAME = 'todopost';
+const HOST = 'aws.connect.psdb.cloud';
+const USERNAME = 'm9oh2eimtn4zoho9zakf';
+const PASSWORD = 'pscale_pw_G3UVOpeVjepE7pgpgEGs61Plu1K6JEbKXqzoJgg8v';
 $ssl_options = array(
   "sslmode" => MYSQLI_CLIENT_SSL,
   // Path to your SSL certificate files
